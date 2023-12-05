@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
@@ -10,7 +9,6 @@ import {
   DiGit,
   DiJava,
   DiAndroid,
-  DiAws
 } from "react-icons/di";
 import {
   SiRedis,
@@ -19,7 +17,7 @@ import {
   SiFlutter,
   SiPostgresql,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+// import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
