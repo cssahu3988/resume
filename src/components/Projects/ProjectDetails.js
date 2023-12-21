@@ -33,7 +33,7 @@ const ProjectDetails = () => {
         <Col>
           <div className="project-description">
             <p>
-              {'Project description will go here...'}
+              {state.myProp.installationGuide}
             </p>
           </div>
         </Col>
