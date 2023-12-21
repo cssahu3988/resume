@@ -741,3 +741,20 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.project-demo-header {
+  color: #fff; /* or any color you prefer */
+  margin-bottom: 20px;
+}
+
+.project-video-wrapper {
+  background-color: rgba(255, 255, 255, 0.1); /* Adjust transparency as needed */
+  padding: 20px;
+}
+
+.project-description {
+  color: #fff; /* or any color you prefer */
+  margin-top: 20px;
+}
+
+/* Add more styles as per your requirement */

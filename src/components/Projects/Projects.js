@@ -1,13 +1,13 @@
 import React from "react";
-import { Container } from "react-bootstrap";
-// import ProjectCard from "./ProjectCards";
+import { Container, Row, Col} from "react-bootstrap";
+import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 // import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.png";
 // import editor from "../../Assets/Projects/codeEditor.png";
-// import chatify from "../../Assets/Projects/chatify.png";
+import chatify from "../../Assets/Projects/chatify.png";
 // import suicide from "../../Assets/Projects/suicide.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+import videoCall from "../../Assets/Projects/video_call.png";
 
 function Projects() {
   return (
@@ -20,30 +20,34 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="StreamPi"
+              description="An android application which streams on demand media and live media. On demand media stemaing is achieved through HTTP live media streaming and live stremaing is achieved through RTMP server written in nodeJS"
+              ghLink="https://github.com/sekhar-fullstack-dev/MediaStreaming"
+              demoLink="http://ec2-51-21-2-219.eu-north-1.compute.amazonaws.com:80/downloadFile/mediastreaming-release.apk"
+              downloadLink="http://ec2-51-21-2-219.eu-north-1.compute.amazonaws.com:80/downloadFile/mediastreaming-release.apk"
+              introVideo = "http://ec2-51-21-2-219.eu-north-1.compute.amazonaws.com:80/streamVideo/project_1_intro.mp4"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={videoCall}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Video conference"
+              description="A video calling app written from scratch with out any third part library. This is also availabe as a library to be used in other projects"
+              ghLink="https://github.com/cssahu3988/Videocalling_project"
+              demoLink="http://ec2-51-21-2-219.eu-north-1.compute.amazonaws.com:80/downloadFile/mediastreaming-release.apk"
+              downloadLink="http://ec2-51-21-2-219.eu-north-1.compute.amazonaws.com:80/downloadFile/videocalling_release.apk"
+              introVideo = "http://ec2-51-21-2-219.eu-north-1.compute.amazonaws.com:80/streamVideo/videocalling.mp4"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -86,8 +90,8 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
-        </Row> */}
+          </Col> */}
+        </Row>
       </Container>
     </Container>
   );
