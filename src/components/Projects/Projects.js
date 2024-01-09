@@ -30,7 +30,7 @@ function Projects() {
               ghLink="https://github.com/sekhar-fullstack-dev/MediaStreaming"
               demoLink="http://ec2-51-21-2-219.eu-north-1.compute.amazonaws.com:80/downloadFile/mediastreaming-release.apk"
               downloadLink="https://drive.google.com/file/d/1eFf9khzJKsOr3enVvRiLBi36Ruktpt-V/view?usp=sharing"
-              introVideo = "https://firebasestorage.googleapis.com/v0/b/root-4c753.appspot.com/o/portfolio_1.mp4?alt=media&token=d08077c5-ae7a-4634-a143-9519a5749df0"
+              introVideo = "https://firebasestorage.googleapis.com/v0/b/resume-f3810.appspot.com/o/portfolio_1.mp4?alt=media&token=fac48c2c-23ee-4c90-8aa3-4e8957658ff5"
               installationGuide = "As you can see from the video, the app enables you to stream on demand media, create a live stream and stream that to many more users. Find the download button below and download the to expolre the app. Feel free to add new features to the project and give a star if you liked the project. Contact me for the backend implementation of this project"
             />
           </Col>
@@ -44,7 +44,7 @@ function Projects() {
               ghLink="https://github.com/cssahu3988/Videocalling_project"
               demoLink="http://ec2-51-21-2-219.eu-north-1.compute.amazonaws.com:80/downloadFile/mediastreaming-release.apk"
               downloadLink="https://drive.google.com/file/d/1MVoIckBSRM0iK-6zN5JpjbwIWentFqSE/view?usp=sharing"
-              introVideo = "https://firebasestorage.googleapis.com/v0/b/root-4c753.appspot.com/o/videocalling.mp4?alt=media&token=91954d4c-ddc2-4408-8e3d-8912b59c4b3d"
+              introVideo = "https://firebasestorage.googleapis.com/v0/b/resume-f3810.appspot.com/o/videocalling.mp4?alt=media&token=a9bfdca9-617e-4552-b63e-c920040ab650"
               installationGuide = "Find the download button below. Click the download button to download the apk and install it. Intall the apk in two different devices so that you can check the video calling feature in real time. Make sure both the devices are conencted to same wifi as right now, devices on the same network will be able to communicate. Communication over intenet will be possible in the next update"
             />
           </Col>
