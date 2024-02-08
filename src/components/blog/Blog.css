@@ -1,0 +1,153 @@
+/* Add your CSS styles for layout, colors, typography, etc. */
+
+.trending-slider {
+    display: flex;
+    width: 75%;
+    align-self: center;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; /* For momentum scrolling on iOS */
+    /* Optional: Hide scrollbar for a cleaner look */
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+  }
+  
+  .trending-slider::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+  
+  .trending-slider > div {
+    scroll-snap-align: start;
+    flex: 0 0 auto; /* Prevent flex items from growing or shrinking */
+    width: 100%; /* Assuming each slide should be full width of the slider */
+    margin-right: 10px; /* Adjust the margin to create space between slides */
+    /* Add other styles such as padding, etc., as needed */
+  }
+  .slider-indicators {
+    text-align: center;
+  }
+  
+  .slider-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .slider-indicator.active {
+    background-color: #6c17bb;
+  }
+  
+  
+  
+  .trending-blog {
+    display: flex;
+    margin: 20px;
+    width: 70%;
+    text-align: start;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Horizontal offset, vertical offset, blur radius, spread radius, color */
+    border-radius: 10px;
+    background: #220e35;
+    /* Rest of your styles */
+  }
+  
+.blog-info{
+    margin-left: 10px;
+    padding: 10px;
+}
+  
+.blog-image{
+    height: 250px;
+    width: 450px;
+    overflow: hidden;
+    border-top-left-radius: 10px; /* Rounded corner for top-left */
+    border-bottom-left-radius: 10px; /* Rounded corner for bottom-left */
+    overflow: hidden; /* This might be unnecessary for the image but is often used on the container */
+    display: block; /* Prevents the default inline behavior of img that can cause spacing issues */
+    object-fit: cover;
+}  
+
+.author-info {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+  }
+  
+  .author-name,
+  .author-title {
+    display: block; /* Makes span behave like a block-level element, stacking vertically */
+    color: white;
+  }
+
+.author-info img {
+    width: 40px; /* Sets the width of the image */
+    height: 40px; /* Sets the height of the image */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the area without being stretched */
+    border: 2px solid #fff; /* Optional: Adds a border around the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+  }
+
+  .testimonials-grid {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .testimonial-grid-blog-image{
+    width: 100%;
+    height: 200px;
+    object-fit:cover; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .testimonial-card {
+    background: #21123ac0;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .testimonial-top {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  
+  .testimonial-image {
+    width: 60px; /* Or the size you want */
+    height: 60px; /* Keep it the same as width for a circle */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    margin-right: 15px;
+  }
+  
+  .testimonial-info {
+    text-align: left;
+    height: fit-content;
+  }
+
+  .testimonial-info p{
+    margin: 0;
+  }
+  
+  .testimonial-description {
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
