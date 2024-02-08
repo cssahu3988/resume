@@ -43,7 +43,7 @@ function Projects() {
               description="A video calling app written from scratch with out any third part library. This is also availabe as a library to be used in other projects"
               ghLink="https://github.com/cssahu3988/Videocalling_project"
               demoLink="http://ec2-51-21-2-219.eu-north-1.compute.amazonaws.com:80/downloadFile/mediastreaming-release.apk"
-              downloadLink="https://drive.google.com/file/d/1MVoIckBSRM0iK-6zN5JpjbwIWentFqSE/view?usp=sharing"
+              downloadLink="https://drive.google.com/file/d/1_AeR-OprFgZ-e9WA8ev_L3TnbBNwlnkv/view?usp=sharing"
               introVideo = "https://firebasestorage.googleapis.com/v0/b/resume-f3810.appspot.com/o/videocalling.mp4?alt=media&token=a9bfdca9-617e-4552-b63e-c920040ab650"
               installationGuide = "Find the download button below. Click the download button to download the apk and install it. Intall the apk in two different devices so that you can check the video calling feature in real time. Make sure both the devices are conencted to same wifi as right now, devices on the same network will be able to communicate. Communication over intenet will be possible in the next update"
             />
