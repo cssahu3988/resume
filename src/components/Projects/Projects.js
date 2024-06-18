@@ -8,6 +8,8 @@ import Particle from "../Particle";
 import chatify from "../../Assets/Projects/chatify.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 import videoCall from "../../Assets/Projects/video_call.png";
+import webRTC from "../../Assets/Projects/webRTC.png";
+
 
 function Projects() {
   return (
@@ -93,6 +95,23 @@ function Projects() {
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col> */}
+        </Row>
+        <Row>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={webRTC}
+              isBlog={false}
+              title="WebRTC React app"
+              description="A Video conferencing web application built with open source webRTC library"
+              ghLink="https://github.com/cssahu3988/Videocalling_project"
+              demoLink="http://ec2-51-21-2-219.eu-north-1.compute.amazonaws.com:80/downloadFile/mediastreaming-release.apk"
+              downloadLink="https://drive.google.com/file/d/1_AeR-OprFgZ-e9WA8ev_L3TnbBNwlnkv/view?usp=sharing"
+              introVideo = "https://firebasestorage.googleapis.com/v0/b/resume-f3810.appspot.com/o/videocalling.mp4?alt=media&token=a9bfdca9-617e-4552-b63e-c920040ab650"
+              installationGuide = "Goto the website and login with your google account to explore the app. If you have any concerns please send a email at sekhar.fullstack.dev@gmail.com"
+              button = "Go to website"
+              webSite = "https://chat-app-a9673.web.app/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>

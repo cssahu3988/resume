@@ -40,8 +40,8 @@ const ProjectDetails = () => {
       </Row>
       <Row>
         <Col className="text-center">
-          <Button variant="primary" href={state.myProp.downloadLink} target="_blank">
-            Download
+          <Button variant="primary" href={state.myProp.button?state.myProp.webSite:state.myProp.downloadLink} target="_blank">
+            {state.myProp.button?state.myProp.button:'Download'}
           </Button>
         </Col>
       </Row>
