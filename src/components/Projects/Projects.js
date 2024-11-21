@@ -103,10 +103,10 @@ function Projects() {
               isBlog={false}
               title="WebRTC React app"
               description="A Video conferencing web application built with open source webRTC library"
-              ghLink="https://github.com/cssahu3988/Videocalling_project"
+              ghLink="https://github.com/sekhar-fullstack-dev/web-rtc"
               demoLink="http://ec2-51-21-2-219.eu-north-1.compute.amazonaws.com:80/downloadFile/mediastreaming-release.apk"
               downloadLink="https://drive.google.com/file/d/1_AeR-OprFgZ-e9WA8ev_L3TnbBNwlnkv/view?usp=sharing"
-              introVideo = "https://firebasestorage.googleapis.com/v0/b/resume-f3810.appspot.com/o/videocalling.mp4?alt=media&token=a9bfdca9-617e-4552-b63e-c920040ab650"
+              introVideo = "https://firebasestorage.googleapis.com/v0/b/resume-f3810.appspot.com/o/Web-RTC%20-%20Made%20with%20Clipchamp.mp4?alt=media&token=6bba43ab-c637-4e65-940d-553b530c879d"
               installationGuide = "Goto the website and login with your google account to explore the app. If you have any concerns please send a email at sekhar.fullstack.dev@gmail.com"
               button = "Go to website"
               webSite = "https://chat-app-a9673.web.app/"
