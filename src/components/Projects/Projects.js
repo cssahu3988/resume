@@ -8,7 +8,6 @@ import Particle from "../Particle";
 import chatify from "../../Assets/Projects/chatify.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 import videoCall from "../../Assets/Projects/video_call.png";
-import webRTC from "../../Assets/Projects/webRTC.png";
 import VideoConference from "../../Assets/Projects/chnadra-video-conference.png";
 
 function Projects() {
