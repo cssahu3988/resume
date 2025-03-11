@@ -9,6 +9,8 @@ import chatify from "../../Assets/Projects/chatify.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 import videoCall from "../../Assets/Projects/video_call.png";
 import VideoConference from "../../Assets/Projects/chnadra-video-conference.png";
+import SocialMedia from "../../Assets/Projects/super_dev.png";
+
 
 function Projects() {
   return (
@@ -64,6 +66,21 @@ function Projects() {
               installationGuide="Goto the website and login with your google account to explore the app."
               button="Go to website"
               webSite="https://agorasdk-c3bfe.web.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SocialMedia}
+              isBlog={false}
+              title="Social Media App"
+              description="A Social media app to connect with fellow developers"
+              ghLink=""
+              demoLink="https://superdev.chandrasekharsahu.com/"
+              downloadLink=""
+              introVideo="https://firebasestorage.googleapis.com/v0/b/resume-f3810.appspot.com/o/Web-RTC%20-%20Made%20with%20Clipchamp.mp4?alt=media&token=6bba43ab-c637-4e65-940d-553b530c879d"
+              installationGuide="Goto the website and create a account and explore"
+              button="Go to website"
+              webSite="https://superdev.chandrasekharsahu.com/"
             />
           </Col>
         </Row>
