@@ -10,7 +10,8 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
+  Navigate,
+  useLocation
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
@@ -18,6 +19,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ProjectDetails from "./components/Projects/ProjectDetails";
 import Blogs from "./components/blog/Blogs";
+import PrivacyPolicy from "./components/privacyPolicy/PrivacyPolicy";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -29,6 +31,7 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
+
 
   return (
     <Router>
@@ -43,6 +46,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/projectdetails" element={<ProjectDetails />} />
+          <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         {/* <Footer /> */}
