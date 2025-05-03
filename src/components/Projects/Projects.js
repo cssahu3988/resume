@@ -10,6 +10,8 @@ import chatify from "../../Assets/Projects/chatify.png";
 import videoCall from "../../Assets/Projects/video_call.png";
 import VideoConference from "../../Assets/Projects/chnadra-video-conference.png";
 import SocialMedia from "../../Assets/Projects/super_dev.png";
+import OttApp from "../../Assets/Projects/ott.png";
+
 
 
 function Projects() {
@@ -81,6 +83,21 @@ function Projects() {
               installationGuide="Goto the website and create a account and explore"
               button="Go to website"
               webSite="https://superdev.chandrasekharsahu.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={OttApp}
+              isBlog={false}
+              title="Social Media App"
+              description="A Social media app to connect with fellow developers"
+              ghLink=""
+              demoLink="https://ott.chandrasekharsahu.com/"
+              downloadLink=""
+              introVideo="https://firebasestorage.googleapis.com/v0/b/resume-f3810.appspot.com/o/Ott-app.mov?alt=media&token=398e3fa5-fe45-4afb-ad6a-c4fd37ad8505"
+              installationGuide="Goto the url and enjoy"
+              button="Go to website"
+              webSite="https://ott.chandrasekharsahu.com/"
             />
           </Col>
         </Row>
