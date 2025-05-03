@@ -89,8 +89,8 @@ function Projects() {
             <ProjectCard
               imgPath={OttApp}
               isBlog={false}
-              title="Social Media App"
-              description="A Social media app to connect with fellow developers"
+              title="OTT App"
+              description="An OTT app that is legit. You can watch movies in this"
               ghLink=""
               demoLink="https://ott.chandrasekharsahu.com/"
               downloadLink=""
